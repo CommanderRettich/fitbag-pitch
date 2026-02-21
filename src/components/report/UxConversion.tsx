@@ -2,7 +2,6 @@ import { SectionTitle } from "@/components/ui/SectionTitle";
 import { DataTable } from "@/components/ui/DataTable";
 import { FindingBox } from "@/components/ui/FindingBox";
 import { CardWrapper } from "@/components/ui/CardWrapper";
-import { MetricRow } from "@/components/ui/MetricRow";
 import { ScreenshotImage } from "@/components/ui/ScreenshotImage";
 
 export function UxConversion() {
@@ -14,7 +13,7 @@ export function UxConversion() {
       <h3 className="text-lg font-semibold mt-8 mb-3">5.1 Above the Fold (Startseite)</h3>
 
       <ScreenshotImage
-        src="/screenshots/01-homepage-above-fold.webp"
+        src="/screenshots/01-homepage-above-fold.png"
         alt="fitBAG Homepage Above the Fold"
         caption="Startseite: Kein klarer CTA, kein Vertrauenselement im sichtbaren Bereich"
       />
@@ -123,7 +122,7 @@ export function UxConversion() {
       <h3 className="text-lg font-semibold mt-8 mb-3">5.3 Konfigurator &ndash; Der größte Conversion-Killer</h3>
 
       <ScreenshotImage
-        src="/screenshots/02-konfigurator.webp"
+        src="/screenshots/07-product-configurator.png"
         alt="fitBAG Konfigurator"
         caption="Der Konfigurator erfordert 13+ Entscheidungspunkte vor dem Kauf"
       />
