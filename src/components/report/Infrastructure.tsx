@@ -5,7 +5,7 @@ import { FindingBox } from "@/components/ui/FindingBox";
 export function Infrastructure() {
   return (
     <section>
-      <SectionTitle number="14." title="Infrastruktur-Empfehlungen" />
+      <SectionTitle number="16." title="Infrastruktur-Empfehlungen" />
 
       <FindingBox type="info">
         <p className="font-semibold mb-1">Pragmatischer Ansatz: JTL-Shop optimieren statt ersetzen</p>

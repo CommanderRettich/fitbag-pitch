@@ -6,7 +6,7 @@ import { HighlightBox } from "@/components/ui/HighlightBox";
 export function Roadmap() {
   return (
     <section>
-      <SectionTitle number="15." title="Priorisierte Roadmap" />
+      <SectionTitle number="17." title="Priorisierte Roadmap" />
 
       <DataTable
         headers={["Phase", "Zeitraum", "Maßnahmen", "Budget (geschätzt)", "Erwarteter Impact"]}

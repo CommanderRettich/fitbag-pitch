@@ -10,6 +10,8 @@ import { SwotAnalysis } from "@/components/report/SwotAnalysis";
 import { LegalRisks } from "@/components/report/LegalRisks";
 import { GrowthStrategy } from "@/components/report/GrowthStrategy";
 import { RoiCalculation } from "@/components/report/RoiCalculation";
+import { BeforeAfterMockups } from "@/components/report/BeforeAfterMockups";
+import { RoiCalculator } from "@/components/report/RoiCalculator";
 import { Infrastructure } from "@/components/report/Infrastructure";
 import { Roadmap } from "@/components/report/Roadmap";
 
@@ -28,6 +30,8 @@ export function ReportTab() {
       <LegalRisks />
       <GrowthStrategy />
       <RoiCalculation />
+      <BeforeAfterMockups />
+      <RoiCalculator />
       <Infrastructure />
       <Roadmap />
     </div>
